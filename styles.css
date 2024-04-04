@@ -60,6 +60,7 @@
     color: white;
     font-size: 40px;
     font-weight: bold;
+    align-self: flex-start;
 }
 
 .btns{
@@ -136,6 +137,7 @@
 .card2 img{
     position: absolute;
     z-index: -1;
+    left: 65%;
 }
 .card2 p{
     position: absolute;
@@ -151,11 +153,30 @@
 }
 
 
-
+.imgcrds{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 20px;
+}
 
 
 .btnS3{
     border-radius: 20px;
-    width: 150px;
-    height: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: #191E3B;
+    color: white;
+    border: 1px solid grey;
 }
+.section3{
+    height: 70vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+    background: linear-gradient(to top, hsla(255, 7%, 32%, 0.729), #2e2b3bba), url('./images/kigali.jpeg') no-repeat top center;
+}
+
